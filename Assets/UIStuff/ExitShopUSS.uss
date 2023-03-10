@@ -1,0 +1,6 @@
+.button {
+    transform-origin: center;
+    rotate: 0;
+    align-self: flex-start;
+    cursor: url('project://database/Assets/Assets/Brick_Material_Red_Rough-Hewn/Material/Bricks_Red_Rough-Hewn-normal.png?fileID=2800000&guid=f9b22948605e13e428a00ed3e5d64e8a&type=3#Bricks_Red_Rough-Hewn-normal');
+}

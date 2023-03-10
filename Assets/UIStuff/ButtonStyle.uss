@@ -1,0 +1,131 @@
+.menu-button {
+    font-size: 75px;
+    -unity-font: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5.ttf?fileID=12800000&guid=995842c7c52361d42b3049fc6ade8097&type=3#Modeseven-L3n5');
+    -unity-font-definition: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5%20SDF.asset?fileID=11400000&guid=9238966b452edf145af3fafc4d3fb646&type=2#Modeseven-L3n5 SDF');
+    width: 90%;
+    height: 90%;
+    left: 4%;
+    top: 4%;
+    position: relative;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    -unity-font-style: normal;
+    -unity-text-align: middle-center;
+}
+
+.menu-button:hover {
+    font-size: 75px;
+    -unity-font: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5.ttf?fileID=12800000&guid=995842c7c52361d42b3049fc6ade8097&type=3#Modeseven-L3n5');
+    -unity-font-definition: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5%20SDF.asset?fileID=11400000&guid=9238966b452edf145af3fafc4d3fb646&type=2#Modeseven-L3n5 SDF');
+    width: 90%;
+    height: 90%;
+    left: 4%;
+    top: 4%;
+    position: relative;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(253, 177, 63);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Levels/UISprites/select.png?fileID=2800000&guid=0b595ebc0de9dbb4ea4500f1dfa482e4&type=3#select');
+    -unity-text-align: middle-center;
+}
+
+.settingsHeader {
+    color: rgb(0, 146, 255);
+    font-size: 75px;
+    -unity-text-align: middle-left;
+    -unity-font: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5.ttf?fileID=12800000&guid=995842c7c52361d42b3049fc6ade8097&type=3#Modeseven-L3n5');
+    -unity-font-definition: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5%20SDF.asset?fileID=11400000&guid=9238966b452edf145af3fafc4d3fb646&type=2#Modeseven-L3n5 SDF');
+}
+
+.menu-button2:hover {
+    font-size: 75px;
+    -unity-font: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5.ttf?fileID=12800000&guid=995842c7c52361d42b3049fc6ade8097&type=3#Modeseven-L3n5');
+    -unity-font-definition: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5%20SDF.asset?fileID=11400000&guid=9238966b452edf145af3fafc4d3fb646&type=2#Modeseven-L3n5 SDF');
+    width: 90%;
+    height: 90%;
+    left: 4%;
+    top: 4%;
+    position: relative;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(253, 177, 63);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-image: none;
+    -unity-text-align: middle-center;
+}
+
+.menu-button2 {
+    font-size: 75px;
+    -unity-font: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5.ttf?fileID=12800000&guid=995842c7c52361d42b3049fc6ade8097&type=3#Modeseven-L3n5');
+    -unity-font-definition: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5%20SDF.asset?fileID=11400000&guid=9238966b452edf145af3fafc4d3fb646&type=2#Modeseven-L3n5 SDF');
+    width: 90%;
+    height: 90%;
+    left: 4%;
+    top: 4%;
+    position: relative;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    -unity-font-style: normal;
+    -unity-text-align: middle-center;
+}
+
+.QuitButtons {
+    font-size: 97px;
+    -unity-font: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5.ttf?fileID=12800000&guid=995842c7c52361d42b3049fc6ade8097&type=3#Modeseven-L3n5');
+    -unity-font-definition: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5%20SDF.asset?fileID=11400000&guid=9238966b452edf145af3fafc4d3fb646&type=2#Modeseven-L3n5 SDF');
+    width: auto;
+    height: auto;
+    left: auto;
+    top: auto;
+    position: relative;
+    -unity-background-image-tint-color: rgba(144, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(161, 0, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    -unity-font-style: normal;
+    -unity-text-align: middle-center;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.QuitButtons:hover {
+    font-size: 97px;
+    -unity-font: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5.ttf?fileID=12800000&guid=995842c7c52361d42b3049fc6ade8097&type=3#Modeseven-L3n5');
+    -unity-font-definition: url('project://database/Assets/Levels/UISprites/Modeseven-L3n5%20SDF.asset?fileID=11400000&guid=9238966b452edf145af3fafc4d3fb646&type=2#Modeseven-L3n5 SDF');
+    width: auto;
+    height: auto;
+    left: auto;
+    top: auto;
+    position: relative;
+    -unity-background-image-tint-color: rgba(144, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    -unity-font-style: normal;
+    -unity-text-align: middle-center;
+    flex-shrink: 0;
+    flex-grow: 1;
+}

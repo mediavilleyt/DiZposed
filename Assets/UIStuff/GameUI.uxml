@@ -1,0 +1,81 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIStuff/ButtonStyle.uss?fileID=7433441132597879392&amp;guid=b60224399cb09f64a89d26194327e993&amp;type=3#ButtonStyle" />
+    <ui:GroupBox style="flex-grow: 1; flex-direction: row; background-image: none;">
+        <ui:GroupBox style="flex-grow: 1;" />
+        <ui:GroupBox style="flex-grow: 0;">
+            <ui:GroupBox style="flex-grow: 1;" />
+            <ui:Label tabindex="-1" text="400|20" display-tooltip-when-elided="true" name="AmmoCounter" style="align-self: flex-end; -unity-text-outline-width: 0; color: rgb(255, 255, 255); font-size: 130px; flex-direction: column; align-items: stretch; justify-content: flex-start; -unity-font: url(&apos;project://database/Assets/UIStuff/Modeseven-L3n5.ttf?fileID=12800000&amp;guid=995842c7c52361d42b3049fc6ade8097&amp;type=3#Modeseven-L3n5&apos;); -unity-font-definition: url(&apos;project://database/Assets/UIStuff/Modeseven-L3n5%20SDF.asset?fileID=11400000&amp;guid=9238966b452edf145af3fafc4d3fb646&amp;type=2#Modeseven-L3n5 SDF&apos;);" />
+        </ui:GroupBox>
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; background-image: url(&apos;project://database/Assets/UIStuff/Objective.png?fileID=2800000&amp;guid=0f1bf03e1589a6e4dab424fed210fa32&amp;type=3#Objective&apos;); -unity-background-scale-mode: scale-to-fit; height: 20%; width: 30%; top: 105px; left: 1387px; visibility: hidden;" />
+    </ui:GroupBox>
+    <ui:VisualElement name="PauseScreen" style="flex-grow: 1; background-color: rgb(0, 17, 53); position: absolute; width: 100%; height: 100%; visibility: hidden;">
+        <ui:Label tabindex="-1" text="Paused" display-tooltip-when-elided="true" name="Header" class="settingsHeader" style="height: 277px; font-size: 187px; -unity-text-align: middle-center; top: 0; position: relative; align-items: auto; flex-grow: 0; flex-direction: column; flex-shrink: 0; width: 1921px; left: 0;" />
+        <ui:Button text="Resume" display-tooltip-when-elided="true" name="ResumeButton" class="menu-button" style="height: auto; width: 693px; left: 0; top: 0; -unity-text-align: middle-center; font-size: 150px; position: relative; align-self: center; align-items: auto; justify-content: flex-start;" />
+        <ui:Button text="Settings" display-tooltip-when-elided="true" name="SettingsButton" class="menu-button" style="height: auto; width: 875px; left: 0; top: 0; -unity-text-align: middle-center; position: relative; font-size: 150px; align-self: center;" />
+        <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" class="menu-button" style="height: auto; width: 508px; left: auto; top: auto; -unity-text-align: middle-center; font-size: 150px; position: relative; align-self: center;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Settings" view-data-key="SettingsBack" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0); background-image: url(&apos;project://database/Assets/UIStuff/settings.png?fileID=2800000&amp;guid=e341724e16f3c5844a7cb2102f18c6fe&amp;type=3#settings&apos;); position: absolute; width: 100%; height: 100%; visibility: hidden; -unity-background-image-tint-color: rgb(255, 255, 255);">
+        <ui:VisualElement name="SettingSection" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; height: 872px; width: 85%; top: 5%; left: 7%;">
+            <ui:VisualElement name="FullscreenMode" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; height: 194px; width: 494px; top: 45px; left: 40px;">
+                <ui:Label tabindex="-1" text="Fullscreen" display-tooltip-when-elided="true" name="Header" class="settingsHeader" />
+                <ui:GroupBox name="Fullscreen" style="flex-grow: 1; flex-shrink: 1;">
+                    <ui:Button text=" Off" display-tooltip-when-elided="true" name="FullscreenButton" class="menu-button2" style="left: 0; top: auto; width: auto; height: auto; position: absolute;" />
+                </ui:GroupBox>
+            </ui:VisualElement>
+            <ui:VisualElement name="QualityMode" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; height: 194px; width: 494px; top: 275px; left: 40px;">
+                <ui:Label tabindex="-1" text="Quality" display-tooltip-when-elided="true" name="Header" class="settingsHeader" />
+                <ui:GroupBox name="Quality" style="flex-grow: 1; flex-shrink: 1;">
+                    <ui:Button text=" High" display-tooltip-when-elided="true" name="QualityButton" class="menu-button2" style="left: 0; top: auto; width: auto; height: auto; position: absolute;" />
+                </ui:GroupBox>
+            </ui:VisualElement>
+            <ui:VisualElement name="FPSMode" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; height: 194px; width: 494px; top: 45px; left: 900px;">
+                <ui:Label tabindex="-1" text="FPS Limit" display-tooltip-when-elided="true" name="Header" class="settingsHeader" />
+                <ui:GroupBox name="FPS" style="flex-grow: 1; flex-shrink: 1;">
+                    <ui:Button text=" 30" display-tooltip-when-elided="true" name="FPSButton" class="menu-button2" style="left: 0; top: auto; width: auto; height: auto; position: absolute;" />
+                </ui:GroupBox>
+            </ui:VisualElement>
+            <ui:VisualElement name="VsyncMode" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; height: 194px; width: 494px; top: 275px; left: 900px;">
+                <ui:Label tabindex="-1" text="Vertical Sync" display-tooltip-when-elided="true" name="Header" class="settingsHeader" />
+                <ui:GroupBox name="Vsync" style="flex-grow: 1; flex-shrink: 1;">
+                    <ui:Button text=" Off" display-tooltip-when-elided="true" name="VsyncButton" class="menu-button2" style="left: 0; top: auto; width: auto; height: auto; position: absolute;" />
+                </ui:GroupBox>
+            </ui:VisualElement>
+            <ui:VisualElement name="Audio" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 90%; height: 40%; top: 60%; align-items: auto; flex-shrink: 0; left: 5%;">
+                <ui:VisualElement name="MusicMode" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; height: 30%; width: 75%; align-items: flex-start; align-self: flex-start; left: 12.5%; top: 10%; flex-direction: row;">
+                    <ui:Label tabindex="-1" text="Music" display-tooltip-when-elided="true" name="Header" class="settingsHeader" style="flex-grow: 0; flex-shrink: 0; width: 30%; align-items: auto; align-self: flex-start; height: 100%;" />
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="InteractSection" style="width: auto; height: 100%; align-self: flex-start; align-items: auto; flex-grow: 1; flex-direction: row; -unity-text-align: upper-left;">
+                        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Min" style="flex-grow: 0; flex-direction: column; width: 33.33%; height: 100%;">
+                            <ui:Button text="-" display-tooltip-when-elided="true" name="MusicMinButton" class="menu-button2" style="height: 100%; width: 100%;" />
+                        </ui:Label>
+                        <ui:Label tabindex="-1" text="0" display-tooltip-when-elided="true" name="MusicLabel" style="flex-grow: 0; flex-direction: column; width: 33.33%; height: 100%; -unity-font: url(&apos;project://database/Assets/UIStuff/Modeseven-L3n5.ttf?fileID=12800000&amp;guid=995842c7c52361d42b3049fc6ade8097&amp;type=3#Modeseven-L3n5&apos;); -unity-font-definition: url(&apos;project://database/Assets/UIStuff/Modeseven-L3n5%20SDF.asset?fileID=11400000&amp;guid=9238966b452edf145af3fafc4d3fb646&amp;type=2#Modeseven-L3n5 SDF&apos;); font-size: 75px; color: rgb(255, 255, 255); -unity-text-align: middle-center;" />
+                        <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="MusicPlusButton" style="flex-grow: 0; flex-direction: column; width: 33.33%; height: 100%;">
+                            <ui:Button text="+" display-tooltip-when-elided="true" name="MusicPlusButton" class="menu-button2" />
+                        </ui:Label>
+                    </ui:Label>
+                </ui:VisualElement>
+                <ui:VisualElement name="EffectsMode" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; height: 30%; width: 75%; align-items: flex-start; align-self: flex-start; left: 12.5%; top: 30%; flex-direction: row;">
+                    <ui:Label tabindex="-1" text="Effects" display-tooltip-when-elided="true" name="Header" class="settingsHeader" style="flex-grow: 0; flex-shrink: 0; width: 30%; align-items: auto; align-self: flex-start; height: 100%;" />
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="InteractSection" style="width: auto; height: 100%; align-self: flex-start; align-items: auto; flex-grow: 1; flex-direction: row; -unity-text-align: upper-left;">
+                        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Min" style="flex-grow: 0; flex-direction: column; width: 33.33%; height: 100%;">
+                            <ui:Button text="-" display-tooltip-when-elided="true" name="EffectsMinButton" class="menu-button2" style="height: 100%; width: 100%;" />
+                        </ui:Label>
+                        <ui:Label tabindex="-1" text="0" display-tooltip-when-elided="true" name="EffectsLabel" style="flex-grow: 0; flex-direction: column; width: 33.33%; height: 100%; -unity-font: url(&apos;project://database/Assets/UIStuff/Modeseven-L3n5.ttf?fileID=12800000&amp;guid=995842c7c52361d42b3049fc6ade8097&amp;type=3#Modeseven-L3n5&apos;); -unity-font-definition: url(&apos;project://database/Assets/UIStuff/Modeseven-L3n5%20SDF.asset?fileID=11400000&amp;guid=9238966b452edf145af3fafc4d3fb646&amp;type=2#Modeseven-L3n5 SDF&apos;); font-size: 75px; color: rgb(255, 255, 255); -unity-text-align: middle-center;" />
+                        <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="MusicMaxButton" style="flex-grow: 0; flex-direction: column; width: 33.33%; height: 100%;">
+                            <ui:Button text="+" display-tooltip-when-elided="true" name="EffectsPlusButton" class="menu-button2" />
+                        </ui:Label>
+                    </ui:Label>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Back" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; top: 964px; left: 140px; width: 326px;">
+            <ui:Button text=" &lt;Exit" display-tooltip-when-elided="true" name="ExitButton" class="menu-button" style="width: 265px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="QuitScreen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.69); position: absolute; width: 100%; height: 100%; visibility: hidden;">
+        <ui:VisualElement name="Quit" style="flex-grow: 1; background-color: rgb(0, 12, 74); position: absolute; width: 100%; height: 30%; top: 35%; flex-direction: row;">
+            <ui:Button text="Quit To&#10;Main Menu" display-tooltip-when-elided="true" name="ToMenu" class="QuitButtons" style="flex-grow: 1;" />
+            <ui:Button text="Quit To&#10;Desktop" display-tooltip-when-elided="true" name="ToDesktop" class="QuitButtons" style="flex-grow: 1;" />
+            <ui:Button text="Resume" display-tooltip-when-elided="true" name="ToBack" class="QuitButtons" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

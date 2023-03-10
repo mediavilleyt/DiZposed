@@ -1,0 +1,167 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.0 6.0.2.6082 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl Main
+Ka 0.839216 0 0
+Kd 0.839216 0 0
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Crome
+Ka 0.541176 0.541176 0.541176
+Kd 0.541176 0.541176 0.541176
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Black
+Ka 0.0470588 0.0470588 0.0470588
+Kd 0.0470588 0.0470588 0.0470588
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Rubber
+Ka 0.0588235 0.0588235 0.0588235
+Kd 0.0588235 0.0588235 0.0588235
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Tyre
+Ka 0.0392157 0.0392157 0.0392157
+Kd 0.0392157 0.0392157 0.0392157
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd 
+map_bump R-Tyre.jpg
+bump R-Tyre.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Set
+Ka 0.0588235 0.0588235 0.0588235
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd Seat.jpg
+map_bump Seat.jpg
+bump Seat.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Standard_1
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl ww
+Ka 0.898039 0.866667 0.796079
+Kd 0.898039 0.866667 0.796079
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Light
+Ka 0.541176 0.541176 0.541176
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd Light.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl _3___Default
+Ka 0.407843 0.376471 0.376471
+Kd 0.407843 0.376471 0.376471
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+d 0.21
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
