@@ -1,5 +1,3 @@
 # DiZposed
 
-Credits:
-
-Jonas Devadder and Yannick Wuyten
+A demo project for third person character movement in Unity.
